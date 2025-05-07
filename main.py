@@ -14,7 +14,7 @@ def index():
 def index():
     if get_arg('verson','') == 'v1'
         return {'data': 'FastAPI v1 is great!'}
-    else
+    else:
         return {'data': 'FastAPI v2 is better!'}
 
 if __name__ == "__main__":
