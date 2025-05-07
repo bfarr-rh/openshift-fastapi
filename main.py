@@ -12,7 +12,7 @@ def index():
 
 @app.get('/message')
 def index():
-    if get_arg('verson','') == 'v1'
+    if get_arg('verson','') == 'v1':
         return {'data': 'FastAPI v1 is great!'}
     else:
         return {'data': 'FastAPI v2 is better!'}
